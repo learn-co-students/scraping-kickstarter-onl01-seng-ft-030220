@@ -1,7 +1,7 @@
 # Scraping Kickstarter
 
 ## Objectives
-
+#
 - Use Nokogiri to scrape an HTML document.
 - Use scraped data to build a nested data structure.
 
@@ -56,7 +56,7 @@ common to keep data that the test suite will use to test your program in a
 `fixtures` directory.
 
 So, for this lab, we _don't need Open-Uri_. We're not opening a live web page.
-
+#
 ## Instructions
 
 ### Setting Up Our Project
@@ -240,6 +240,7 @@ Let's add that to `kickstarter_scraper.rb`:
 # title: project.css("h2.bbcard_name strong a").text
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
+
 ```
 
 ### Selecting the Location
